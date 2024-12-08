@@ -1,4 +1,4 @@
-echo "# **Herramienta de Ataque de Red**
+## Herramienta de Ataque de Red
 
 **¡Úsalo responsablemente!**
 
