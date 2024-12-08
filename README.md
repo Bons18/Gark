@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Esta herramienta permite realizar ataques de red utilizando diferentes tipos de métodos como:
+Esta herramienta, en fase beta, permite realizar ataques de red utilizando diversos métodos, como:
 
 - **UDP Flood**: Envía una gran cantidad de paquetes UDP al objetivo.
 - **SYN Flood**: Envía una gran cantidad de solicitudes de conexión TCP (SYN) sin completar el handshake.
