@@ -32,7 +32,7 @@ pip install colorama
 Para ejecutar el script de ataque, usa el siguiente comando:
 
 \`\`\`bash
-python attack_tool.py
+python Gark.py
 \`\`\`
 
 ### Parámetros de configuración:
