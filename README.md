@@ -69,5 +69,3 @@ Enviados 1000 paquetes a 192.168.1.100:80 (Spoofed IP: 10.0.0.1)
 ## Licencia
 
 Este proyecto está licenciado bajo la **Licencia MIT**, lo que te permite modificar y distribuir el código bajo los términos de esta licencia." > README.md
-
-echo "README.md ha sido creado exitosamente con la información proporcionada."
