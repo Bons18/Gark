@@ -1,22 +1,24 @@
-## Herramienta de Ataque de Red
+# Herramienta de Ataque de Red - Godzilla
 
 **¡Úsalo responsablemente!**
 
 ## Descripción
 
-Esta herramienta, en fase beta, permite realizar ataques de red utilizando diversos métodos, como:
+**Godzilla** es una poderosa herramienta de ataque de red en fase beta, diseñada para realizar pruebas de resistencia y análisis de seguridad en entornos controlados. Permite realizar diversos tipos de ataques de denegación de servicio (DoS), simulando escenarios reales para evaluar la robustez de las redes y sistemas.
 
-- **UDP Flood**: Envía una gran cantidad de paquetes UDP al objetivo.
-- **SYN Flood**: Envía una gran cantidad de solicitudes de conexión TCP (SYN) sin completar el handshake.
-- **ICMP Flood**: Envía una gran cantidad de pings (ICMP Echo Request) al objetivo.
-- **HTTP Flood**: Envía una gran cantidad de solicitudes HTTP al objetivo.
+Los tipos de ataques soportados incluyen:
 
-Está diseñada para fines educativos y de prueba en entornos controlados.
+- **UDP Flood**: Envía una gran cantidad de paquetes UDP al objetivo para agotar los recursos de red y dejar inoperativa la conexión.
+- **SYN Flood**: Envia solicitudes TCP SYN, sin completar el handshake, lo que puede generar congestión en el sistema de destino.
+- **ICMP Flood**: Realiza un ataque de \"ping flood\" enviando una cantidad masiva de solicitudes ICMP Echo Request, sobrecargando la red.
+- **HTTP Flood**: Inunda el servidor objetivo con una gran cantidad de solicitudes HTTP, lo que puede llevar al agotamiento de recursos web.
+
+Esta herramienta está destinada únicamente para fines educativos y pruebas de seguridad en entornos controlados, con el objetivo de ayudar a mejorar la protección de redes y sistemas.
 
 ## Requisitos
 
 - Python 3.x
-- `colorama` para la coloración de la salida en consola
+- \`colorama\` para la coloración de la salida en consola
 - Permisos de root para ejecutar el script debido al uso de sockets raw
 
 ## Instalación
@@ -32,7 +34,7 @@ pip install colorama
 Para ejecutar el script de ataque, usa el siguiente comando:
 
 \`\`\`bash
-python Gark.py
+python Godzilla.py
 \`\`\`
 
 ### Parámetros de configuración:
